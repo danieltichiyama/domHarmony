@@ -2,11 +2,14 @@
 
 //1. In the nav element, target the span element with the id of 'matCount' and change the number from 0 to 11.
 
-var matCount = document.getElementById ('matCount')
+var matCount = document.getElementById ('matCount');
 matCount.innerHTML=11;
 
-console.log(matCount);
+// console.log(matCount);
 //2. In the nav element, target the span element with the id of 'msgCount' and change the number from 0 to 23.
+
+var msgCount = document.getElementById('msgCount');
+msgCount.innerHTML = 23;
 
 //3. In the div id data section, target the div element with the id of 'fullname' and change Full Name to Ronald McDonald.
 
