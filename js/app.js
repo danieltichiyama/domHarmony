@@ -13,6 +13,9 @@ msgCount.innerHTML = 23;
 
 //3. In the div id data section, target the div element with the id of 'fullname' and change Full Name to Ronald McDonald.
 
+var fullName = document.getElementById('fullname');
+fullName.innerHTML = 'Ronald McDonald';
+
 //4. In the div id data section, target the div element with the id of 'age' and change Age to 63 Years Old.
 
 //5. In the div id data section, create a div with an id of job and give it the following information: Clown and Restauranteur.
