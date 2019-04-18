@@ -37,7 +37,7 @@ document.getElementById('data').appendChild(divHobbies);
 
 //7. In the div id data section, create a div with an id of location and give it the following information: Honolulu, HI.
 
-divLocation = document.createElement ('div');
+var divLocation = document.createElement ('div');
 divLocation.id = 'location';
 divLocation.innerHTML = 'Honolulu, HI';
 
@@ -45,14 +45,23 @@ document.getElementById('data').appendChild(divLocation);
 
 //8. In the div id data section, create a div with an id of wants and give it the following information: Looking for a Mrs. McDonald.
 
-divWants = document.createElement('div');
+var divWants = document.createElement('div');
 divWants.id = 'wants';
 divWants.innerHTML = 'Looking for a Mrs. McDonald.';
 document.getElementById('data').appendChild(divWants);
 
 //9. In the div id profile section, create a paragraph element with an id of pro2 and create a your own profile for Ronald (at least 2 sentences).
 
+var divPro2 = document.createElement('p');
+divPro2.id='pro2';
+divPro2.innerHTML = "I'm looking for someone who will see the real me, beneath all of this clown makeup. Do you have x-ray vision?"
+document.getElementById('profile').appendChild(divPro2);
+
 //10. In the div id matches section, target the first div element with the class name of firstName and change Name to Wendy.
+
+var firstNameClass = document.getElementsByClassName('firstName');
+
+firstNameClass[0].innerHTML = 'Wendy';
 
 //11. In the div id matches section, target the first div element with the class name of otherAge and change Age to 48.
 
