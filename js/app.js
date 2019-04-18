@@ -30,7 +30,7 @@ document.getElementById('data').appendChild (divJob);
 
 //6. In the div id data section, create a div with an id of hobbies and give it the following information: Long romantic walks on the beach, candle light Big Mac dinners and tormenting the King.
 
-var divHobbies = document.createElement ('div');divHobbies.id='job';
+var divHobbies = document.createElement ('div');divHobbies.id='hobbies';
 
 divHobbies.innerHTML='Long romantic walks on the beach, candle light Big Mac dinners and tormenting the King.';
 document.getElementById('data').appendChild(divHobbies);
@@ -44,6 +44,11 @@ divLocation.innerHTML = 'Honolulu, HI';
 document.getElementById('data').appendChild(divLocation);
 
 //8. In the div id data section, create a div with an id of wants and give it the following information: Looking for a Mrs. McDonald.
+
+divWants = document.createElement('div');
+divWants.id = 'wants';
+divWants.innerHTML = 'Looking for a Mrs. McDonald.';
+document.getElementById('data').appendChild(divWants);
 
 //9. In the div id profile section, create a paragraph element with an id of pro2 and create a your own profile for Ronald (at least 2 sentences).
 
