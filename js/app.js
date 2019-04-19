@@ -91,5 +91,15 @@ otherAgeClass[1].innerHTML = 68;
  //div with class anem of Motto
 
 
+ var otherBoxClass = document.getElementsByClassName('otherBox');
+
+ 
+var newProfile = {
+    img:'https://img.huffingtonpost.com/asset/5911e3f41600002900c5a36d.jpg?ops=scalefit_820_noupscale',
+    name:'Sun Maid',
+    age:107,
+    motto:'California Raisins'};
+
+
 
 
