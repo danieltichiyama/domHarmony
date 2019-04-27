@@ -100,6 +100,19 @@ var newProfile = {
     age:107,
     motto:'California Raisins'};
 
+var arr = document.getElementsByClassName('otherBox');
 
+for (key in newProfile){
+    if (key === 'img'){
+        var image = arr[2].querySelector ('img');
+        image.src = newProfile [key];
+    }else if (key==='name'){
+        arr[2].querySelector ('div.firstName').innerHTML = newProfile [key];
+    }else if (key ==='age'){
+        arr[2].querySelector ('div.otherAge').innerHTML = newProfile [key];
+    }else if (key ==='motto'){
+        arr[2].querySelector('div.motto').innerHTML = newProfile [key];
+    }
+}
 
 
